@@ -6,7 +6,9 @@ import './styles/index.css'
 // 1
 import { ApolloProvider, createNetworkInterface, ApolloClient } from 'react-apollo'
 
-
+// 2
+const networkInterface = createNetworkInterface({
+})
 
 // 3
 const client = new ApolloClient({
